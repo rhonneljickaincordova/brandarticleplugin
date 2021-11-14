@@ -1,0 +1,71 @@
+.brand-article-item{
+    padding: 0 20px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s all ease-in;
+    box-shadow: inset 0 0 1px #000;
+}
+
+.brand-article-thumbnail{
+    width: calc(100% + 40px);
+    padding: 56.25% 0 0;
+    margin: 0 -20px 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.brand-article-title{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.brand-article-auth{
+    display: block;
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    text-transform:  uppercase;
+}
+
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next{
+    width: 30px;
+    height: 30px;
+    background-color: #6ec1e4 !important;
+    color: #fff !important;
+    border-radius: 50%;
+    transition: 0.2s all ease-in;
+}
+
+.owl-carousel .owl-nav button.owl-prev:focus, 
+.owl-carousel .owl-nav button.owl-next:focus{
+    outline: unset;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    transform: translatex(-50%);
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    transform: translatex(50%);
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+    transform: translatex(-50%) scale(1.2);
+}
+
+.owl-carousel .owl-nav button.owl-next:hover{
+    transform: translatex(50%) scale(1.2);
+}
+
